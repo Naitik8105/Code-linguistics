@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="student_logo.jpg" alt="logo" class="logo">
+        <p class="caption">Code Linguistics</p>
+        <div class="login">
+           
+        </div>
+    </header>
+    <main>
+        <nav>
+            <img src="moon.png" alt="sun" class="mode">
+        </nav>
+        <!-- Welcome -->
+        <!-- <p class="welcome">Login To Get Started: </p> -->
+
+        <!-- Timer -->
+        <div class="Timer hidden">
+            <nav class="timer">
+                <button class="btn focus-pomo">Focus Time</button>
+                <button class="btn break-pomo">Break</button>
+                <button class="btn reset-pomo">Reset</button>
+                <input type="number" class="input-pomo" placeholder="Time(mins)">
+                <button class="btn start-pomo"> &rarr;</button>
+            </nav>
+            <p class="time-pomo">25:00</p>
+        </div>
+
+        <!-- To-Do List -->
+        <table class="todo">
+            <thead>
+                <h2 class="list-head">My Tasks </h2>
+                <nav class="todo-nav">
+                    <button class="add">Add</button>
+                    <input type="text" class="input-task" placeholder="Task">
+                </nav>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Default Task 1</td>
+                    <td><button class="del">Delete</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Default Task 2</td>
+                    <td><button class="del">Delete</button></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>Default Task 3</td>
+                    <td><button class="del">Delete</button></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
